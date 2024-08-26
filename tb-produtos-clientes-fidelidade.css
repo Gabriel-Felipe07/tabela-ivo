@@ -1,0 +1,55 @@
+/* estilizando o documento inteiro */
+*{
+    /* zerando o espaço externo */
+    margin: 0;
+    /* zerando o espaço interno */
+    padding: 0;
+    /* tamanho até a borda */
+    box-sizing: border-box;
+    /* juntar as bordas */
+    border-collapse: collapse;
+}
+
+
+/* estilizando todos os h1 da página */
+h1{
+    /* aumentando o espaço interno inferior da tag */
+    padding-bottom: 10px;
+}
+
+/* estilizando as 3 tabelas */
+.tabela-1-lista-produtos,
+.tabela-2-cadastro-cliente,
+.tabela-3-sorvete{
+    /* definindo a largura das tabelas */
+    width: 90%;
+    /* centralizando os textos da tabela no centro */
+    text-align: center;
+    /* definido um expaço a partir da magem esquerda até as tags */
+    margin-left: 9%;
+    /* definindo um espaço inferior */
+    margin-bottom: 3%;
+}
+
+/* estilizando todos os th e td da página */
+th,
+td{
+    /* definindo uma borda para a tabela */
+    border: 1px solid #000;
+    /* espaços internos */
+    padding: 8px;
+}
+
+/* todas as sections da pagina */
+section{
+    /* definindo uma largura */
+    width: 90%;
+    /* definindo uma margem à esquerda */
+    margin-left: 9%;
+    /* centralizando os textos no centro */
+    text-align: center;
+    /* defindo uma margem inferior */
+    margin-bottom: 16px;
+    /* definindo um espaço interno */
+    padding: 8px;
+}
